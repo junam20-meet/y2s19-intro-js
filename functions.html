@@ -16,6 +16,32 @@ function isLetter(char) {
 }
 
 // Write your isPalindrome function here!
+ispalindrome()
+function ispalindrome(){
+	var x=prompt("write a word")
+	var isPalindrome=true
+	for (var i = 0;i<parseInt(x.length);i++){
+		if(x[i-1]==x[x.length-i]){
+			console.log(x[i-1],x[x.length-1])	
+		}
+
+		else {
+			console.log(i)
+			isPalindrome=false
+		}
+	}
+
+		if (isPalindrome==true){
+			alert("True")
+		}
+		else{
+			alert("False")
+}
+}  
+
+
+
+
 
     </script>
 </body>
